@@ -1,0 +1,67 @@
+/* home.module.css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('background.jpg');
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .name {
+    font-size: 48px;
+  }
+  
+  .role {
+    font-size: 30px;
+    color: #1895d8;
+    margin-bottom: 16px;
+  }
+  
+  .description {
+    font-size: 18px;
+    margin-bottom: 32px;
+  }
+  
+  .socialLinks {
+    display: flex;
+    align-items: center;
+  }
+  
+  .socialLinks a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: background-color 0.3s ease;
+  }
+  
+  .socialLinks a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .icon {
+    color: #ffffff;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .socialLinks a:hover .icon {
+    color: #1895d8;
+  }
+  

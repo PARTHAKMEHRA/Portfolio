@@ -1,0 +1,83 @@
+/* Contact.module.css */
+.contact {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .connectHeading {
+    color: #1473e6;
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  
+  .connectText {
+    margin-top: 10px;
+  }
+  
+  .sendEmailButton {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #1473e6;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sendEmailButton:hover {
+    background-color: #0f5dbb;
+  }
+  
+  .contactInfo {
+    margin-top: 30px;
+  }
+  
+  .contactItem {
+    margin-bottom: 10px;
+  }
+  
+  .contactItem span {
+    font-weight: bold;
+  }
+  
+  .social {
+    margin-top: 30px;
+  }
+  
+  .social span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .socialLinks a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .socialLinks a img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .key{
+    font-size: 22px;
+  }
+  .values{
+    font-size: 20px;
+    color:rgb(83, 34, 196);
+  }
